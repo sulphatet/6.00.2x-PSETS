@@ -179,12 +179,7 @@ def evaluate_models_on_training(x, y, models):
     """
     # for model in models:
     #     estimate =[]
-    #     for i in range(len(x)):
-    #         temp = 0
-    #         for j in range(len(model)):
-    #             temp += model[j] * (x[i]**(len(model)-j-1))
-    #             estimate.append(temp)
-        
+    
     #     pylab.title(" Poly-fitting R^2 = " + str(r_squared(y, estimate)))
     #     pylab.xlabel("Temperature")
     #     pylab.ylabel("Year")
